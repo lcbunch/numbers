@@ -1,6 +1,6 @@
 puts "Give me a number."
-number = gets.chomp
+num = gets.chomp.to_i
 puts "Thank you. Please give me one more number."
-secondnum = gets.chomp
-total = number.to_i + secondnum.to_i
+secondnum = gets.chomp.to_i
+total = num + secondnum
 puts "Your total is #{total}."
